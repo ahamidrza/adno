@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="ripples.js"></script>
+    <style>
+        @font-face {
+            src: url("Yekan-Bakh-FaNum-05-Medium.woff");
+            font-family: "Yekan Bakh2";
+        }
+        * {
+            box-sizing: border-box;
+            margin: unset;
+            font-weight: unset!important;
+            padding: unset;
+            font-family: "Yekan Bakh2", sans-serif;
+            direction: rtl;
+        }
+
+        body {
+            font-size: 1rem;
+            user-select: none;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            font-weight: 700;
+            outline: none;
+            box-shadow: rgba(0, 0, 255, 0.2) 0 2px 4px;
+            padding: 10px 10px 8px;
+            border: unset;
+            border-radius: 10px;
+
+        }
+
+        body {
+            width: 300px;
+            border: rgba(0, 0, 0, 0.07) solid 1px;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            padding-bottom: 25px;
+        }
+
+        #active_button {
+            width: 260px;
+        margin-top: 10px;
+        }
+
+        button:hover {
+            box-shadow: rgba(0, 0, 255, 0.2) 0 2px 6px;
+        }
+
+        #active_button {
+            background-color: red;
+            box-shadow: rgba(255, 0, 0, 0.2) 0 2px 4px;
+        }
+
+        #active_button:hover {
+            box-shadow: rgba(255, 0, 0, 0.2) 0 2px 6px;
+        }
+
+#favicon:hover{
+box-shadow: rgba(90,95,97,0.2) 0 2px 4px;
+}
+
+        #favicon:active {
+            filter: brightness(98%);
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+<h2 style="color:#515659;margin-top: 5px">ادنو</h2>
+<p style="color:#869096">فقط یک خداحافظی با تبلیغات</p>
+<h2 style="line-height: 26px;margin-top: 15px">
+    مـــــشغول حذف<br>تبلیغات هستیم
+</h2>
+<img id="favicon" src="Picture1.png" draggable="false" style="transition: .1s;padding: 5px;margin-top: 20px;margin-bottom: -10px;background-color: white;border: rgba(90,95,97,0.27) solid 1px;width:50px;height: 50px;border-radius: 5px">
+<h3 id="url" style="width: 200px;margin-left: auto;direction: ltr;margin-right:auto;margin-top: 30px;color: #5c6163;font-family: 'Yekan Bakh2';line-height: 20px;margin-bottom:7px;">سایت نامخشص</h3>
+<p style="direction: ltr;" id="address">www.???</p>
+<img src="logo.png" style="width: 30px;margin-bottom: -15px;margin-top: -5px" draggable="false">
+<p style="margin-top: 17px;color: #a7a7a7;font-size: 13px">تمامی حقوق برای حمیدرضا احمدی محفوظ است</p>
+<button style="width: 258px;margin-top: 10px" class="md-ripples">گزارش تبلیغ ( بزودی )</button>
+<button id="active_button" class="md-ripples">غیر فعال کردن افزونه</button>
+</body>
+</html>
