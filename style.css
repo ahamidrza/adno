@@ -1,3 +1,6 @@
 .digiad-link,x,.ads-block,.yasdl-topbanners-body, .adv_l, .type-resource-image, .ads, .ad,.ad-box,.adsbygoogle,.adhtml,.ADParent,#aswift_1,#aswift_2,#aswift_3,#aswift_4,#aswift_5,#aswift_6 {
     display: none !important;
 }
+.adn{
+    display: block !important;
+}
