@@ -2,5 +2,6 @@
     display: none !important;
 }
 .adn{
-    display: block !important;
+    display: inline-block!important;
+padding-left:72px!important;
 }
